@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+   body
+{
+background-image:url("https://wevibrant.com/GCP/cgi-brochure-background-banner.jpg");
+background-position: right;
+}
+h1
+{
+color: white;
+text-align: center;
+background-color:black
+}
+    </style>
+</head>
+<body>
+<form action="http://127.0.0.1:8000/login/">
+    {% csrf_token %}
+    <div>
+        <h1>Create your Account</h1>
+    </div>
+<h3>Enter your Details :</h3>
+<br>
+<b>Username</b>
+<input type="text" id="username" name="username" placeholder="username">
+<br>
+<br>
+    <label><b>Email</b></label>
+    <input type="email" name="user_mail">
+    <br>
+    <br>
+<b>Password</b>
+<input type="password" name="password1" placeholder="password">
+<br>
+<br>
+<b>Re-enter your Password</b>
+<input type="password" type="pass2" placeholder="confirm password">
+<br>
+<br>
+<b>Password must contain the :
+    <ul>
+        <li>Uppercase letters: A-Z</li>
+        <li>Lowercase letters: a-z</li>
+        <li>Numbers: 0-9</li>
+        <li>Special Symbol</li>
+    </ul>
+</b>
+<div style="text-align:center">
+    <input type="submit">
+</div>
+</form>
+</body>
+</html>

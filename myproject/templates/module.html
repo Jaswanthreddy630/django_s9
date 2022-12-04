@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    .calculator-container{
+      background-color:white;
+    border:2px solid black;
+    height:350px;
+    width:300px;
+    position:relative;
+    left:170px;
+    padding:15px;
+    display:inline-block;
+    }
+    .men{
+    width:320px;
+    border:2px solid black;
+    padding:15px;
+    margin-left:130px;
+    background-color:white;
+    }
+
+    .women{
+      background-color:white;
+    margin-left:350px;
+    width:320px;
+    height:350px;
+    border:2px solid black;
+    position:absolute;
+    top:450px;
+    left:370px;
+    padding:10px;
+
+    }
+     .calc{
+    height:200px;
+    width:170px;
+    display:inline;
+    }
+    .matter{
+      background-color:white;
+    padding:10px;
+    border:2px solid red;
+    width:450px;
+    position:absolute;
+    bottom:250px;
+    left:760px;
+    }
+
+    .mental{
+     width:300px;
+    height:400px;
+    margin-left:30px;
+    padding:10px;
+    background-color:white;
+    }
+    .physical{
+     width:300px;
+    height:400px;
+    margin-left:30px;
+    padding:10px;
+    background-color:white;
+    position:absolute;
+    left:400px;
+    top:910px;
+    }
+    .Nutrition
+    {
+    margin-left:30px;
+    width:300px;
+    height:400px;
+    background-color:white;
+    padding:10px;
+    position:absolute;
+    left:800px;
+    top:910px;
+    }
+    .buttons:hover{
+    color:balck;
+    background-color:cyan;
+    }
+    .anchor{
+    text-decoration:none;
+    width:100px;
+    font-size:large;
+    position:relative;
+    left:650px;
+    }
+  </style>
+</head>
+<body style="background-color:#E8F3D6;">
+<span><img src="https://www.hdfcergo.com/images/default-source/health-insurance/height-and-weight-correlation.svg" class="calc"></span>
+    <div class="calculator-container">
+        <h1>BMI CALCULATOR</h1>
+        <p>Height in meters:</p>
+        <input class="height-input-field" type="text" required>
+        <p>weight in kilograms:</p>
+        <input class="weight-input-field" type="text" required><br>
+      <br>
+        <button class="calculate"> Calculate</button>
+       <h3 class="result"></h3>
+    <p class="result-statement" ></p>
+           <script src="script.js"></script>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+<div class="men">
+    <img src="https://www.hdfcergo.com/images/default-source/health-insurance/man.svg?sfvrsn=7bfcb696_2">
+    <h2>BMI FOR MEN</h2>
+    <p>An ideal BMI range which is considered normal is supposedly between 18.5 to 24.9 kg/m2. BMI below18.5 (approx) is considered underweight and anything between 24.9 to 30 (approx) is considered overweight.</p>
+</div>
+<div class="women">
+    <img src="https://www.hdfcergo.com/images/default-source/health-insurance/women.svg?sfvrsn=e791090_2">
+    <h2>BMI FOR WOMEN</h2>
+    <p>Some studies suggest that the average BMI value for women is slightly lower than men. While some studies have suggested that higher BMI cut offs for women like 32, 33 are normal.</p>
+</div>
+<div class="matter">
+    The last one year has taught us how important it is to be healthy. The coronavirus pandemic was a rude shock for everyone and it reminded everyone that it is extremely important to be healthy. People need to follow a well-balanced diet as well as work out. To follow a healthy routine, one needs to know their body type. Every person has a different body type and hence they cannot be asked to follow the same diet or exercise schedule. Moreover, it is not enough to know just your bodyweight; one has to be aware of their body mass index (BMI). The online Body Mass Index (BMI) calculator is a perfect device to determine that. The BMI calculator measures how much body mass you have according to your height and weight. Body mass refers not only to the fat within your body but also within muscles and bones. It is calculated by considering your weight and dividing it by the square of your height. This is a useful and easy tool for getting to know different weight categories that may lead to health problems.
+</div>
+<h1 align="center">---WELLNESS IS DYNAMIC---</h1>
+<div class="mental">
+<img src="https://www.hdfcergo.com/images/default-source/health-insurance/mental-health212f4d0d5f8c44ebacf9180f7737ca86.svg?sfvrsn=a3b257b1_2">
+<h1>Mental Health</h1>
+    <p>Mental health as a topic may not be taboo anymore, but there’s still A lot left to do for people to speak even more freely about it. Any mental health related issue needs to be treated like any other health ailment. It is a very important component of wellness.</p>
+<button style="position:relative; left:70px; color:red" class="buttons"><a href="http://127.0.0.1:8000/module11/">Know more</a></button>
+</div>
+<br>
+<div class="physical">
+<img src="https://www.hdfcergo.com/images/default-source/health-insurance/physical-health.svg?sfvrsn=fbfcebd2_2">
+<h1>Physical Health</h1>
+    <p>An essential part of your overall wellness is to be physically fit and healthy. So, everyone needs to be conscious about their physical health and take care of it to develop their overall wellness.</p>
+<button style="position:relative; left:70px; color:red" class="buttons">Know more</button>
+</div>
+<div class="Nutrition">
+<img src="https://www.hdfcergo.com/images/default-source/wellness-corner/nutrition_and_fitness.svg">
+<h1>Nutrition And Fitness</h1>
+    <p>To ensure that complete wellness is achieved, it is necessary to keep a check on your nutrition and fitness levels. Proper nutrition helps prevent illnesses and keeps your body fit; and physical fitness also helps improve your mental well-being.</p>
+<button style="position:relative; left:70px; color:red" class="buttons">Know more</button>
+</div>
+<br>
+<br>
+<div class="anchor">
+    <a href="http://127.0.0.1:8000/profiles/">profiles</a>
+</div>
+
+</body>
+</html>
